@@ -1,0 +1,50 @@
+/* Fonte base */
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    padding:0;
+    background-color: #fffafc;
+    color: #333;
+}
+
+/* Container */
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+
+.header{
+    background-color: #ff6b81;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Banner */
+
+.hero{
+    background-image: url(imagem.png);
+    background-size: cover;    
+}
